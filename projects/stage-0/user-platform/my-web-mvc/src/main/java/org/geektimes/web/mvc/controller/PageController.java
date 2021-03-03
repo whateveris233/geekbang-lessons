@@ -12,7 +12,7 @@ public interface PageController extends Controller {
 
     /**
      * @param request  HTTP 请求
-     * @param response HTTP 相应
+     * @param response HTTP 响应
      * @return 视图地址路径
      * @throws Throwable 异常发生时
      */

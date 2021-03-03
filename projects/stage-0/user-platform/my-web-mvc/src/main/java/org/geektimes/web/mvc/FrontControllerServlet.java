@@ -22,7 +22,6 @@ import javax.ws.rs.Path;
 import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
-import java.nio.file.Path;
 import java.util.*;
 
 import static java.util.Arrays.asList;

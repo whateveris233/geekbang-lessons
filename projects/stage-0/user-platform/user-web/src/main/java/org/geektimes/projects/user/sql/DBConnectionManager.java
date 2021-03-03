@@ -7,6 +7,7 @@ import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
 import java.io.PrintWriter;
 import java.lang.reflect.Method;
+import java.lang.*;
 import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -15,6 +16,11 @@ import java.util.Properties;
 public class DBConnectionManager {
 
     private Connection connection;
+
+//    Properties props = new Properties();
+//    props.put("user", "");
+//    props.put("password", "");
+//    System.out.println("new connect to derby database");
 
     public void setConnection(Connection connection) {
         this.connection = connection;
